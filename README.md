@@ -1,12 +1,33 @@
-# React + Vite
+##Lista de tarefas com React e Recoil  
+Descrição  
+Este é um aplicativo simples de gerenciamento de tarefas (To-do List) desenvolvido com React e Recoil para gerenciamento de estado global. Permite adicionar, listar, filtrar e remover tarefas com filtros para exibir todas, apenas concluídas ou pendentes.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##Funcionalidades  
+-Adicionar novas tarefas  
 
-Currently, two official plugins are available:
+-Listar tarefas existentes  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Marcar tarefas como concluídas ou pendentes  
 
-## Expanding the ESLint configuration
+-Remover tarefas  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-Filtrar tarefas por status (Todas, Concluídas, Pendentes)  
+
+##Tecnologias utilizadas  
+-React 18  
+
+-Recoil 0.7.7  
+
+-Vite (ferramenta para build e dev server)  
+
+-CSS puro para estilização 
+
+ ##Como rodar o projeto localmente  
+ -Clone este repositório  
+git clone  
+-Navegue até a pasta do projeto  
+cd nome-do-projeto  
+-Instale as dependências  
+npm install  
+-Inicie o servidor de desenvolvimento  
+npm run dev  
